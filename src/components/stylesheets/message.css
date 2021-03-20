@@ -1,0 +1,23 @@
+.__te_onlineBanking__Message{
+    display: flex;
+    flex-direction: column;
+    margin: 2vw 5vw;
+    justify-content: center;
+    align-items: center;
+}
+.__te_onlineBanking__Message p{
+    font-size: 1.3vw;
+    font-weight: 600;
+    margin: 1vw;
+}
+.__te_onlineBanking__Message button{
+    font-size: 1vw;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    padding: 0.5vw 1vw;
+    border-radius: 0.2vw;
+    cursor: pointer;
+}

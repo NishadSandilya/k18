@@ -1,0 +1,13 @@
+.__te_onlineBanking__Button{
+    color: rgb(0, 0, 0);
+    min-width: 12vw;
+    border: none;
+    border-radius: 5px;
+    padding: 1vw 2vw;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    font-size: 1.1vw;
+    font-weight: 700;
+    margin: 1vw 2vw;
+    cursor: pointer;
+}

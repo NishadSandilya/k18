@@ -1,0 +1,38 @@
+.__te_onlineBanking__Modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.11),rgba(0, 0, 0, 0.39));
+    border: rgba(255, 255, 255, 0.466) solid 1px;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    z-index: 9;
+}
+.__te_onlineBanking__Modal .content{
+    min-width: 30vw;
+    min-height: 20vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 5px;
+}
+#closeBtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1vw;
+    /* width: 3vw; */
+    /* margin: 0.3vw; */
+    cursor: pointer;
+    border: none;
+    outline: none;
+    /* padding: 0.2vw; */
+    font-size: 1vw;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    background-color: rgba(255, 255, 255, 0);
+}

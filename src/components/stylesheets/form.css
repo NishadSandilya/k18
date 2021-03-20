@@ -1,0 +1,49 @@
+.__te_onlineBanking__Form{
+    margin: 1vw 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.__te_onlineBanking__Form p{
+    text-align: center;
+    font-size: 1.3vw;
+    font-weight: 700;
+    margin: 2vw 3vw;
+}
+.__te_onlineBanking__Form span{
+    display: flex;
+    flex-direction: column;
+}
+.__te_onlineBanking__Form span label{
+    font-size: 1.11vw;
+    font-weight: 600;
+    margin: 0.5vw 0;
+}
+.__te_onlineBanking__Form span input{
+    border: none;
+    background-color: rgba(46, 46, 46, 0.137);
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+    margin: 0.5vw 0;
+    min-height: 3vw;
+
+}
+.__te_onlineBanking__Form span input::placeholder{
+    font-size: 1vw;
+}
+.__te_onlineBanking__Form form button{
+    display: block;
+    margin: 2vw auto;
+    width: fit-content;
+    padding: 0.5vw 1vw;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: black;
+    cursor: pointer;
+}
